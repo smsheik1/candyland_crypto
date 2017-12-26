@@ -49,8 +49,10 @@ class WelcomeController < ApplicationController
 
   def wumbo 
     puts 'this is wumbo speaking'
-    x = 6
-    puts x
+  end
+
+  def robin_s_way
+    puts "you just got it robin's way"
   end
 
   def wizard
