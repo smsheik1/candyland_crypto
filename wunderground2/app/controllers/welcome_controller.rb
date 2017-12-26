@@ -45,5 +45,12 @@ class WelcomeController < ApplicationController
   @forecast_link = response['current_observation']['forecast_url']
   @real_feel = response['current_observation']['feelslike_f']
   end
+
+
+  def wumbo 
+    puts 'this is wumbo speaking'
+    x = 6
+    puts x
+  end
   
 end
