@@ -52,5 +52,11 @@ class WelcomeController < ApplicationController
     x = 6
     puts x
   end
+
+  def wizard
+    x = 10
+    y = 10
+    puts x+y
+  end
   
 end
