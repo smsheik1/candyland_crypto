@@ -52,13 +52,8 @@ class WelcomeController < ApplicationController
   end
 
   def robin_s_way
-    puts "you just got it robin's way"
+    puts "Robin don't say this"
   end
 
-  def wizard
-    x = 10
-    y = 10
-    puts x+y
-  end
   
 end
